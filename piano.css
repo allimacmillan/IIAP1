@@ -1,16 +1,17 @@
 html {background-color: #8096ba;}
 
-#piano {text-align: center;}
-.white_keys {position: absolute; z-index: 1;}
-.black_keys {position: absolute; z-index: 2; margin-top: -100px;}
+#piano {transform: translate(25%);}
+#white_keys {position: absolute; z-index: 1; display: inline-block;}
+#black_keys {position: absolute; z-index: 2; display: inline-block; margin-left: 45px;}
 .white_key {background-color: white; color: black;}
 .black_key {background-color: black;}
 
 /* Desktop */
 @media screen and (min-width : 320px) {
   #piano {margin-top: 200px;}
+  #secondBlack {margin-right: 100px;}
   .white_key {width: 70px; height: 210px;}
-  .black_key {width: 50px; height: 110px;}
+  .black_key {width: 50px; height: 110px; margin-right: 20px;}
 
 }
 
