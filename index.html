@@ -2,12 +2,14 @@
 <head>
   <title>Fun Piano</title>
   <link rel="stylesheet" href="piano.css"></link>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="Tone.js"></script>
   <script src="piano.js"></script>
 </head>
 <body>
   <div id="piano">
     <div id="white_keys">
-      <button class="white_key" id="C">C</button>
+      <button class="white_key" id="C" onclick="cTone()">C</button>
       <button class="white_key">D</button>
       <button class="white_key">E</button>
       <button class="white_key">F</button>
