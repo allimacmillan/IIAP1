@@ -1,16 +1,16 @@
 ## Keyboard Interaction Feature
-press a to play C Tone
-press w to play C# Tone
-press s to play D Tone
-press e to play D# Tone
-press d to play E Tone
-press f to play F Tone
-press t to play F# Tone
-press g to plahy G Tone
-press y to play G# Tone
-press h to play A Tone
-press u to play A# Tone
-press j to play B Tone
+press a to play C Tone  
+press w to play C# Tone  
+press s to play D Tone  
+press e to play D# Tone  
+press d to play E Tone  
+press f to play F Tone  
+press t to play F# Tone  
+press g to plahy G Tone  
+press y to play G# Tone  
+press h to play A Tone  
+press u to play A# Tone  
+press j to play B Tone  
 
 ## Welcome to GitHub Pages
 
