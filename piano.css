@@ -1,11 +1,11 @@
-html {background-color: #8096ba;}
+html {background-color: #4e6891;}
 h1 {font-size: 50px; color: white;}
 
 #piano {transform: translate(25%);}
 #white_keys {position: absolute; z-index: 1; display: inline-block;}
 #black_keys {position: absolute; z-index: 2; display: inline-block;}
 .white_key {background-color: white; color: black;}
-.black_key {background-color: black;}
+.black_key {background-color: black; color: white;}
 
 /* Desktop */
 @media screen and (min-width : 530px) {
