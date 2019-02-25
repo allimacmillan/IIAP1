@@ -1,20 +1,43 @@
 html {background-color: #8096ba;}
+h1 {font-size: 50px; color: white;}
 
 #piano {transform: translate(25%);}
 #white_keys {position: absolute; z-index: 1; display: inline-block;}
-#black_keys {position: absolute; z-index: 2; display: inline-block; margin-left: 45px;}
+#black_keys {position: absolute; z-index: 2; display: inline-block;}
 .white_key {background-color: white; color: black;}
 .black_key {background-color: black;}
 
 /* Desktop */
-@media screen and (min-width : 320px) {
+@media screen and (min-width : 530px) {
   #piano {margin-top: 200px;}
-  #secondBlack {margin-right: 100px;}
+  #Ds {margin-right: 100px;}
+  #black_keys {margin-left: 45px;}
+  #small {display: none;}
+  #C {background-color: #089601;}
+  #D {background-color: #20b218;}
+  #E {background-color: #3fc938;}
+  #F {background-color: #61c95c;}
+  #G {background-color: #83cc80;}
+  #A {background-color: #acefaa;}
+  #B {background-color: #daf9d9;}
   .white_key {width: 70px; height: 210px;}
   .black_key {width: 50px; height: 110px; margin-right: 20px;}
 
 }
 
-/* Smartphone */
-@media screen and (max-width : 320px) {
+/* Tablet */
+@media screen and (max-width : 530px) {
+  #piano {margin-top: 200px;}
+  #Ds {margin-right: 55px;}
+  #black_keys {margin-left: 30px;}
+  #large {display: none;}
+  #C {background-color: #e0d002;}
+  #D {background-color: #f7e600;}
+  #E {background-color: #fff256;}
+  #F {background-color: #fff68c;}
+  #G {background-color: #fcf6ab;}
+  #A {background-color: #fffbce;}
+  #B {background-color: #f7f5e6;}
+  .white_key {width: 40px; height: 80px;}
+  .black_key {width: 25px; height: 45px; margin-right: 15px;}
 }
